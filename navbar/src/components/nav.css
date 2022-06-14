@@ -1,0 +1,45 @@
+
+.navbar-container{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: tan;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container:hover{
+    background-color: grey;
+}
+.logo{
+    color: black;
+    border: 5px solid black;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    margin-left: 50px ;
+    height: 35px ;   
+}
+
+.logo:hover{
+    background-color: orange;
+}
+
+.navbar-list li{
+    display: inline-block;
+    margin-left:15px ;
+    margin-right: 15px;
+    padding-right: 20px;
+}
+
+.navbar-list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.ayo:hover{
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+    letter-spacing: 3px;
+}
